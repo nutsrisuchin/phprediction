@@ -11,8 +11,8 @@ from joblib import load
 # Make sure to replace this with loading your actual trained model
 #model = LogisticRegression()
 
-model = load("C:\\Users\\26005064\\OneDrive - PTT Global Chemical Public Company Limited\\DATA\\Nut\\FiT, T-II, Digital Projects\\Sour water pH analysis\\production_model.pkl")
-
+#model = load("C:\\Users\\26005064\\OneDrive - PTT Global Chemical Public Company Limited\\DATA\\Nut\\FiT, T-II, Digital Projects\\Sour water pH analysis\\production_model.pkl")
+model = load("production_model.pkl")
 
 st.title("pH Prediction App")
 
