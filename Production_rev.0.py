@@ -23,9 +23,9 @@ if uploaded_file:
     st.write("Uploaded Data:")
     st.write(data)
 
-    data_test_final = data.iloc[:, 2:]
+    data_test_final = data.iloc[:, 5:]
 
-    #data1 = data.iloc[:, :2]
+    #data1 = data.iloc[:, :5]
     #data_concat = pd.concat([data1, pd.DataFrame(predicted_ph)], axis=1)
     #data_concat.rename(columns={data_concat.columns[-1]: 'IOW (In=1/Out=0)'}, inplace=True)
 
